@@ -1,0 +1,98 @@
+﻿body {
+     background: rgb(0,200,255,0.1);
+}
+ .contenedor{
+	        width: 90%;
+	        max-width: 1200px;
+	        margin: 20px 20px;
+	        overflow: hidden;
+}
+       
+@font-face{
+	font-family: Frederick;
+	src: url(fuentes/Frederick.ttf);
+}
+@font-face{
+	font-family: another;
+	src: url(fuentes/Northwood.ttf);
+}
+@font-face{
+	font-family: sinopsis;
+	src: url(fuentes/sinopsis.ttf);
+}
+header{
+	width: 100%;
+	background: rgb(0,69,166,0.8);
+	height: 100px;
+}
+.ancho{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+}
+.logo{
+	width: 20%;
+	height: 100px;
+	padding-top: 2.5%;
+	float: left;
+	box-sizing: border-box;
+} 
+nav{
+	font-size: 120%;
+	width: 80%;
+	height: 100px;
+	float: right;
+	text-align: right;
+	padding-top: 5%;
+	box-sizing: border-box;
+	text-transform: uppercase
+}
+.txtlogo {
+	color: white;
+	font-size: 250%;
+	float: center;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: Frederick;
+}
+.txtlogo a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+.txtlogo a:hover{
+	color: black;
+}
+#barra li {
+ 	display: inline;
+	color: #fff;
+	padding-right: 3%; 
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: Frederick;
+}
+#barra li a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+#barra li a:hover{
+	color: black;
+}
+.seccion {
+	width: 1000px;
+	 padding: 0.5%;
+	 margin: 20px 20px;
+     border-style: double;
+     background: rgb(0,200,255,0.1);
+     
+}
+#entradas{
+	text-align: center-justify;
+ 	background-color: rgba(255,255,226,0.5) ;
+ 	border: 1px solid #999999;
+ 	padding: 2%;
+ 	margin-bottom: 15px;
+ 	background: rgb(0,119,255,0.3);
+}

@@ -1,0 +1,37 @@
+﻿body {
+    background-image:url(https://www.eluniversal.com.co/sites/default/files/201504/facetas_tienda_4.jpg);
+    
+}
+ .auto-style1 {
+     float: right;
+     width: 160px;
+     margin: 20px 20px;
+     padding: 20px;
+     background: #CCCCCC;
+     height: 120px;
+        }
+ .auto-style2 {
+     width: 60%;
+     height: 600px;
+     margin-top: 100px;
+     margin-left: 235px;
+     margin-bottom: 50px;
+     background-color:rgb(200,200,255,0.8);
+     border: 1px solid #ffffff;
+     padding: 30px;
+     margin-right: 0px;
+}
+.seccion{
+	 
+	 padding: 0.5%;
+	 margin: 20px 0px;
+     border-style: double;
+     background: rgb(0,200,255,0.1);
+     width: 842px;
+}
+ .auto-style8 {
+            position: relative;
+            left: -60px;
+            top: 40px;
+        }
+

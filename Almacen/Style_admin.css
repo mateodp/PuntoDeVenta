@@ -1,0 +1,210 @@
+﻿body {
+    background: rgb(0,200,255,0.1);
+}
+        .auto-style2 {
+            border-style: dashed;
+            border-color: inherit;
+            border-width: medium;
+            position: absolute;
+            top: 45px;
+            left: 100px;
+            z-index: 1;
+             }
+        .auto-style3 {
+            border-style: dashed;
+            border-color: inherit;
+            border-width: medium;
+            position: absolute;
+            top: 75px;
+            left: 100px;
+            z-index: 1;
+            }
+        .auto-style4 {
+            border-style: dashed;
+            border-color: inherit;
+            border-width: medium;
+            position: absolute;
+            top: 105px;
+            left: 100px;
+            z-index: 1;
+            }
+        .auto-style5 {
+            border-style: dashed;
+            border-color: inherit;
+            border-width: medium;
+            position: absolute;
+            top: 135px;
+            left: 100px;
+            z-index: 1;
+            }
+        .auto-style7 {
+            position: absolute;
+            top: 48px;
+            left: 5px;
+            z-index: 1;
+            width: 90px;
+            text-align:right;
+        }
+        .auto-style8 {
+            position: absolute;
+            top: 108px;
+            left: 5px;
+            z-index: 1;
+            width: 90px;
+            text-align:right;
+        }
+        .auto-style9 {
+            position: absolute;
+            top: 139px;
+            left: 5px;
+            z-index: 1;
+            width: 90px;
+            text-align:right;
+        }
+        .auto-style11 {
+            position: absolute;
+            top: 79px;
+            left: 5px;
+            z-index: 1;
+            width: 90px;
+            text-align:right;
+        }
+        .auto-style12 {
+            position: absolute;
+            top: 177px;
+            left: 94px;
+            z-index: 1;
+        }
+        .auto-style13 {
+            width: 265px;
+            height: 223px;
+            position: relative;
+            top: 116px;
+            left: 615px;
+            margin-left: 0px;
+            z-index: 1;
+        }
+        .auto-style14 {
+            position: absolute;
+            top: 15px;
+            left: 91px;
+            z-index: 1;
+        }
+        .auto-style15 {
+            width: 240px;
+            height: 38px;
+            position: relative;
+            top: 4px;
+            left: 5px;
+            z-index: 1;
+        }
+        .auto-style16 {
+            width: 270px;
+            z-index: 1;
+            left: 757px;
+            top: 85px;
+            position: absolute;
+            height: 45px;
+        }
+        .auto-style17 {
+         position: absolute;
+            top: 179px;
+            left: 94px;
+            z-index: 1;
+        }
+        .auto-style18 {
+            z-index: 1;
+            left: 50px;
+            top: 73px;
+            position:relative;
+            height: 261px;
+            width: 541px;
+        }
+       .contenedor{
+	        width: 90%;
+	        max-width: 1200px;
+	        margin: 20px 20px;
+	        overflow: hidden;
+}
+       
+@font-face{
+	font-family: Frederick;
+	src: url(fuentes/Frederick.ttf);
+}
+@font-face{
+	font-family: another;
+	src: url(fuentes/Northwood.ttf);
+}
+@font-face{
+	font-family: sinopsis;
+	src: url(fuentes/sinopsis.ttf);
+}
+header{
+	width: 100%;
+	background: rgb(0,69,166,0.8);
+	height: 100px;
+}
+.ancho{
+	width: 80%;
+	height: 100px;
+	margin: auto;
+}
+.logo{
+	width: 20%;
+	height: 100px;
+	padding-top: 2.5%;
+	float: left;
+	box-sizing: border-box;
+} 
+nav{
+	font-size: 100%;
+	width: 80%;
+	height: 100px;
+	float: right;
+	text-align: right;
+	padding-top: 5%;
+	box-sizing: border-box;
+	text-transform: uppercase
+}
+.txtlogo {
+	color: white;
+	font-size: 250%;
+	float: center;
+	text-decoration: none;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: Frederick;
+}
+.txtlogo a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+.txtlogo a:hover{
+	color: black;
+}
+#barra li {
+ 	display: inline;
+	color: #fff;
+	padding-right: 3%; 
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: Frederick;
+}
+#barra li a{
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+#barra li a:hover{
+	color: black;
+}
+.seccion {
+	width: 1000px;
+	 padding: 0.5%;
+	 margin: 20px 20px;
+     border-style: double;
+     background: rgb(0,200,255,0.1);
+     
+}
+
